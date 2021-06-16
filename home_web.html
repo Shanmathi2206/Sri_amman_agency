@@ -1,0 +1,146 @@
+
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HOME</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		
+		
+		
+		
+<style>
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+h2{
+	font-weight:bold;
+}
+
+.banner
+{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(images/img.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+.content
+{
+	width:100%;
+	position:absolute;
+	top:40%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:white;
+}
+.content h1
+{
+	font-size:60px;
+	margin-top:80px;
+	line-height:1.5;
+	font-weight:300;
+	
+}
+.content p 
+{
+	margin:20px auto;
+	font-size:19px;
+	font-weight:150px;
+	line-height:25px;
+}
+button 
+{
+	width:200px;
+	padding:15px 0;
+	text-align:center;
+	margin:20px 10px ;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid #009688;
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+}
+span
+{
+	background:#009688;
+	height:100%;
+	width:0;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+	transition:0.5s;
+}	
+button:hover span
+{
+	width:100%;	
+}		
+button:hover 
+{
+	border:none;
+}
+	
+	
+</style>
+
+</head>
+    
+  
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #e3f2fd;">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/Skl">SRI AMMAN AGENCY</a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="home_web.html">Home</a></li>
+           <li><a href="products.html">Products</a></li>
+           <li><a href="contact_web.html">Contact</a></li>
+		   <li><a href="login_web.html">Login</a></li>
+		   <li><a href="registration_web.html">Signup</a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+
+	<div class="banner">
+		<div class="content">
+			<h1> SRI AMMAN AGENCY </h1><br><br>
+			<p>
+			   Fertilizers are chemical substances supplied to the crops to increase their productivity. <br>
+			   These are used by the farmers daily to increase the crop yield. The fertilizers contain the <br>
+			   essential nutrients required by the plants, including nitrogen, potassium, and phosphorus.<br><br><br>
+			<div>
+				<button type="button"><span> </span> <h2>Products </h2></button>
+				<button type="button"> <span> </span> <h2>Contact us </h2></button>			
+			</div>	
+		</div>
+	</div>
+	
+	
+</body>
+</html>
+
+

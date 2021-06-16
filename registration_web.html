@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+  <title>Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
+  
+ <style>
+ .container
+{	
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(images/signup1.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.container h1{
+	color:white;
+	font-weight:800px;
+	font-size:30px;
+}
+.form-group label
+{
+	color:#00bcd4;
+}
+.form-group input[type="text"],.form-group input[type="number"],.form-group input[type="password"],.form-group input[type="email"],.form-group input[type="textarea"]{
+width:280px;
+}
+	
+.form-group input[type="text"]:focus,.form-group input[type="number"]:focus,.form-group input[type="password"]:focus,.form-group input[type="email"]:focus,.form-group input[type="textarea"]:focus{
+width:400px;
+border-color:#e91e63;
+
+}
+.submit button[type="submit"]
+{
+	width:100px;
+	background:#e91e63;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	font-size:18px;
+}
+</style> 
+</head>
+<body background="E:\my website\images\signup1.jpg">
+<center>
+<div class="container">
+  <h1>REGISTERATION FORM</h1><br>
+  <form action="/action_page.php">
+	<div class="form-group">
+		<h3><label for="name">Name:</label></h3>
+		<input type="text" class="form-control" id="name" placeholder="Enter Your Name" name="name">
+    </div>
+	<div class="form-group">
+		<h3><label for="rollno">RollNo:</label></h3>
+		<input type="text" class="form-control" id="rollno" placeholder="Enter Your RollNo" name="rollno">
+    </div>
+	<div class="form-group">
+		<h3><label for="phnno">PhoneNo:</label></h3>
+		<input type="number" class="form-control" id="phnno" placeholder="Enter Your Phpne Number" name="phnno">
+    </div>
+    <div class="form-group">
+      <h3><label for="email">Email:</label></h3>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <h3><label for="address">Address:</label></h3>
+      <input type="textarea" class="form-control" id="address" placeholder="Enter Address" name="address">
+    </div>
+	<div class="submit">
+		<button type="submit" class="btn btn-default">Submit</button>
+	</div>
+  </form>
+</div>
+</center>
+
+</body>
+</html>
+
+
+
+<!--
+
+Delivery Address
+
+Flat No
+
+select area
+
+feedback
+
+
+
+
+
+
+
+
+
+.container 
+{
+    text-align:center;
+    background-color: cyan;
+
+}
+.bg-img{
+    min-height: 100vh;
+   width: 100%;
+   background: url('../assets/images/pro6.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.container h1{
+    color:yellow;
+    text-align:center;
+}
+.form-group label
+{
+	color:white;
+}
+.form-group input[type="text"],.form-group input[type="number"],.form-group input[type="password"],.form-group input[type="email"],.form-group input[type="textarea"]{
+width:280px;
+margin-left:530px;
+}
+	
+.form-group input[type="text"]:focus,.form-group input[type="number"]:focus,.form-group input[type="password"]:focus,.form-group input[type="email"]:focus,.form-group input[type="textarea"]:focus{
+width:400px;
+border-color:#e91e63;
+
+}
+.submit button[type="submit"]
+{
+	width:100px;
+	background:#e91e63;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	font-size:18px;
+}
+
+
+
+
+                <div *ngIf="username.errors.required" class="alert">Username is required </div>
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
